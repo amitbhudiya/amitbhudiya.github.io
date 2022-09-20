@@ -87,11 +87,11 @@
    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     border-radius: 50%;
-    padding: 4px;
+    padding: 3px 5px 3px 5px;
     color: #ffffff;
     position: absolute;
     top: 0%;
-    right: 1px;
+    right: -2px;
 }
 
 .item ul {
@@ -1084,7 +1084,9 @@ iframe {
         width: 97%;
         margin: 0 auto;
     }
-
+    .bannertitle{
+        bottom: 150px;
+    }
     .blog {
         width: 16%;
     }
@@ -1103,6 +1105,7 @@ iframe {
     
     
     .bannertitle {
+        bottom: 135px;
         left: 21%;
     }
 
@@ -1216,7 +1219,9 @@ iframe {
     .item form {
         width: 42%;
     }
-
+    .bannertitle {
+        bottom: 110px;
+    }
 
 
     .bannertext h1 {
@@ -1273,6 +1278,7 @@ iframe {
 
     .bannertitle {
         left: 22%;
+        bottom: 95px;
     }
 
     .bannertext {
@@ -1392,7 +1398,7 @@ iframe {
     }
     .bannertitle {
         left: 24%;
-        bottom: 75px;
+        bottom: 70px;
     }
 
     .bannertext {
