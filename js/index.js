@@ -5,6 +5,10 @@ $(document).ready(function () {
     $('.bars').click(function () { 
         $('.navbar ul li').toggleClass('active')
     });
+    $('.colors i').click(function () { 
+        $(".colors i").removeClass("active");
+        $(this).toggleClass('active')
+    });
     $('.mainimage').slick({
         //slidesToScroll: 1,
         autoplay: true,
