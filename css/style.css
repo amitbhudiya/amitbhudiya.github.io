@@ -75,8 +75,12 @@
     gap: 10px;
     display: flex;
     align-items: center;
-
+    
 }
+.item a span{
+    white-space: nowrap;
+}
+
 
 .item a #badge {
     background-color: #000;
