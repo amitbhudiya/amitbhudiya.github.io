@@ -236,9 +236,9 @@
 .bannertitle {
     display: flex;
     position: absolute;
-    left: 50%;
+    left: 26%;
     bottom: 169px;
-    transform: translate(-50%);
+    width: 100%;
 }
 
 .bannertext {
@@ -1050,10 +1050,7 @@ iframe {
 }
 
 @media screen and (max-width: 1681px) {
-    .bannertitle {
-        width: 55%;
-    }
-
+    
     .instaslider {
         width: 95%;
     }
@@ -1064,9 +1061,7 @@ iframe {
 }
 
 @media screen and (max-width: 1601px) {
-    .bannertitle {
-        width: 57%;
-    }
+   
 
     .instaslider {
         width: 95%;
@@ -1104,7 +1099,7 @@ iframe {
     
     
     .bannertitle {
-        width: 64%;
+        left: 21%;
     }
 
     .story p {
@@ -1146,7 +1141,7 @@ iframe {
     }
 
     .bannertitle {
-        width: 67%;
+        left: 20%;
 
     }
 
@@ -1178,7 +1173,7 @@ iframe {
     }
 
     .bannertitle {
-        width: 72%;
+        left: 18%;
         bottom: 125px;
     }
 
@@ -1218,9 +1213,7 @@ iframe {
         width: 42%;
     }
 
-    .bannertitle {
-        width: 68%;
-    }
+
 
     .bannertext h1 {
         font-size: 46px;
@@ -1275,7 +1268,7 @@ iframe {
     }
 
     .bannertitle {
-        width: 61%;
+        left: 22%;
     }
 
     .bannertext {
@@ -1394,7 +1387,7 @@ iframe {
 
     }
     .bannertitle {
-        width: 55%;
+        left: 24%;
         bottom: 75px;
     }
 
@@ -1551,8 +1544,9 @@ iframe {
     top: 197px;
     }
     .bannertitle {
-        width: 76%;
-        bottom: 46px;
+ 
+        left: 14%;
+    bottom: 40px;
     }
 
     .bannertext {
@@ -1598,7 +1592,7 @@ iframe {
 }
 @media screen and (max-width: 376px){
 .bannertitle {
-    width: 82%;
+
     bottom: 38px;
 }
 .banner {
