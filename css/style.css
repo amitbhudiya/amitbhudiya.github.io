@@ -356,7 +356,7 @@
 .cateimg1 {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 29px;
     margin-bottom: 30px;
 }
 
@@ -405,7 +405,7 @@
 .cateimg2 {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 29px;
 }
 
 .cateimage2 {
@@ -753,7 +753,7 @@ iframe {
     z-index: -1;
     */
     border-radius: 20px;
-    padding: 62px 20px 62px 105px;
+    padding: 63px 20px 64px 105px;
     background: #f8f8f8;
 }
 
