@@ -27,23 +27,23 @@
         </div>
         <div class="container">
             <div class="head">
-                <div class="logo" id="logo">
-                    <a href="#"><img src="./images/headlogo.png" alt="headlogo" id="headlogo"></a>
-                </div>
                 <div class="solidbars">
                     <i class="fa-solid fa-bars headtoggle"></i>
                 </div>
+                <div class="logo" id="logo">
+                    <a href="#"><img src="./images/headlogo.png" alt="headlogo" id="headlogo"></a>
+                </div>
+
                 <div class="item">
                     <form>
                         <input type="text" class="headtextbox" placeholder="Search our store...">
-                        <button type="submit" class="headsearch"><img src="./images/headsearch.png"
-                                alt="search"></button>
+                        <input type="image" src="./images/headsearch.png" class="headsearch">
                     </form>
 
                     <a href="tel:+1234567890" id="call"><img src="./images/headcall.png" alt="headcall"
                             id="headcall"><span>12
                             3456 7890</span></a>
-                    <a href="#"><img src="./images/headshare.png" alt="headshare" id="headshare"></a>
+                    <a href="#" id="sharehead"><img src="./images/headshare.png" alt="headshare" id="headshare"></a>
                     <ul>
                         <li>
                             <a href="#"><img src="./images/headaccount.png" alt="headaccount" id="headaccount"></a>
@@ -57,17 +57,41 @@
 
                         </li>
                     </ul>
-                    <a href="#"><img src="./images/headcart.png" alt="headcart" id="headcart"><span id="badge">0
+                    <a href="#" class="carthead"><img src="./images/headcart.png" alt="headcart" id="headcart"><span
+                            id="badge">0
                         </span></a>
 
                 </div>
             </div>
         </div>
         <div class="navbar" id="navbar">
-            <div class="bars">
-                <i class="fa-solid fa-bars toggle"></i>
-            </div>
-            <ul>
+
+            <form>
+                <input type="text" class="headtextbox" placeholder="Search our store...">
+                <input type="image" src="./images/headsearch.png" class="headsearch">
+            </form>
+            <div class="secondline">
+            <a href="tel:+1234567890" id="call"><img src="./images/headcall.png" alt="headcall" id="headcall"><span>12
+                    3456 7890</span></a>
+
+            <a href="#" id="sharehead"><img src="./images/headshare.png" alt="headshare" id="headshare"></a>
+            <ul id="accountul">
+                <li>
+                    <a href="#"><img src="./images/headaccount.png" alt="headaccount" id="headaccount"></a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">Log Out</a></li>
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+            
+
+            <ul id="navbarul">
                 <div class="homelogo">
                     <li><a href=""><img src="./images/navhomelogo.png" alt="home"></a> </li>
                 </div>
@@ -280,8 +304,8 @@
                                     <a href="" class="icon1"><img src="./images/eye.png" alt="eye"></a>
                                     <a href="" class="icon2"><img src="./images/sharebtn.png" alt="share"></a>
                                 </div>
-                                <button class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
-                                    CART</button>
+                                <a href="" class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
+                                    CART</a>
                             </div>
                         </div>
                         <div class="rating">
@@ -317,8 +341,8 @@
                                     <a href="" class="icon1"><img src="./images/eye.png" alt="eye"></a>
                                     <a href="" class="icon2"><img src="./images/sharebtn.png" alt="share"></a>
                                 </div>
-                                <button class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
-                                    CART</button>
+                                <a href="" class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
+                                    CART</a>
                             </div>
                         </div>
                         <div class="rating">
@@ -353,8 +377,8 @@
                                     <a href="" class="icon1"><img src="./images/eye.png" alt="eye"></a>
                                     <a href="" class="icon2"><img src="./images/sharebtn.png" alt="share"></a>
                                 </div>
-                                <button class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
-                                    CART</button>
+                                <a href="" class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
+                                    CART</a>
                             </div>
                         </div>
 
@@ -392,8 +416,8 @@
                                     <a href="" class="icon1"><img src="./images/eye.png" alt="eye"></a>
                                     <a href="" class="icon2"><img src="./images/sharebtn.png" alt="share"></a>
                                 </div>
-                                <button class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
-                                    CART</button>
+                                <a href="" class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
+                                    CART</a>
                             </div>
                         </div>
 
@@ -429,8 +453,8 @@
                                     <a href="" class="icon1"><img src="./images/eye.png" alt="eye"></a>
                                     <a href="" class="icon2"><img src="./images/sharebtn.png" alt="share"></a>
                                 </div>
-                                <button class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
-                                    CART</button>
+                                <a href="" class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
+                                    CART</a>
                             </div>
                         </div>
 
@@ -469,8 +493,8 @@
                                     <a href="" class="icon1"><img src="./images/eye.png" alt="eye"></a>
                                     <a href="" class="icon2"><img src="./images/sharebtn.png" alt="share"></a>
                                 </div>
-                                <button class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
-                                    CART</button>
+                                <a href="" class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
+                                    CART</a>
                             </div>
                         </div>
 
@@ -507,8 +531,8 @@
                                     <a href="" class="icon1"><img src="./images/eye.png" alt="eye"></a>
                                     <a href="" class="icon2"><img src="./images/sharebtn.png" alt="share"></a>
                                 </div>
-                                <button class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
-                                    CART</button>
+                                <a href="" class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
+                                    CART</a>
                             </div>
                         </div>
 
@@ -545,8 +569,8 @@
                                     <a href="" class="icon1"><img src="./images/eye.png" alt="eye"></a>
                                     <a href="" class="icon2"><img src="./images/sharebtn.png" alt="share"></a>
                                 </div>
-                                <button class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
-                                    CART</button>
+                                <a href="" class="addcart"><img src="./images/addcart.png" alt="addcart">ADD TO
+                                    CART</a>
                             </div>
                         </div>
                         <div class="rating">
@@ -722,7 +746,7 @@
                         </div>
                         <div class="rightcontent">
                             <div class="paragraph">
-                                <p><span>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                                     obcaecati,
                                     inventore
                                     ipsum ducimus laudantium delectus veniam commodi dignissimos quis vel sapiente,
@@ -735,9 +759,13 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="coma">
-                            <img src="./images/testimocoma.png" alt="coma">
-                        </div> -->
+
+                    </div>
+                    <div class="coma">
+                        <img src="./images/testimocoma.png" alt="coma">
+                    </div>
+                    <div class="testarrow">
+                        <img src="./images/testarrow.png" alt="arrow">
                     </div>
                     <div class="names">
                         <h4 id="name">Wayne Henderson</h4>
@@ -752,7 +780,7 @@
                         </div>
                         <div class="rightcontent">
                             <div class="paragraph">
-                                <p><span>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                                     obcaecati,
                                     inventore
                                     ipsum ducimus laudantium delectus veniam commodi dignissimos quis vel sapiente,
@@ -765,9 +793,13 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="coma">
-                            <img src="./images/testimocoma.png" alt="coma">
-                        </div> -->
+
+                    </div>
+                    <div class="coma">
+                        <img src="./images/testimocoma.png" alt="coma">
+                    </div>
+                    <div class="testarrow">
+                        <img src="./images/testarrow.png" alt="arrow">
                     </div>
                     <div class="names">
                         <h4 id="name">Wayne Henderson</h4>
@@ -782,7 +814,7 @@
                         </div>
                         <div class="rightcontent">
                             <div class="paragraph">
-                                <p><span>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                                     obcaecati,
                                     inventore
                                     ipsum ducimus laudantium delectus veniam commodi dignissimos quis vel sapiente,
@@ -795,9 +827,13 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="coma">
-                            <img src="./images/testimocoma.png" alt="coma">
-                        </div> -->
+
+                    </div>
+                    <div class="coma">
+                        <img src="./images/testimocoma.png" alt="coma">
+                    </div>
+                    <div class="testarrow">
+                        <img src="./images/testarrow.png" alt="arrow">
                     </div>
                     <div class="names">
                         <h4 id="name">Wayne Henderson</h4>
@@ -812,7 +848,7 @@
                         </div>
                         <div class="rightcontent">
                             <div class="paragraph">
-                                <p><span>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
                                     obcaecati,
                                     inventore
                                     ipsum ducimus laudantium delectus veniam commodi dignissimos quis vel sapiente,
@@ -825,9 +861,14 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="coma">
-                            <img src="./images/testimocoma.png" alt="coma">
-                        </div> -->
+
+
+                    </div>
+                    <div class="coma">
+                        <img src="./images/testimocoma.png" alt="coma">
+                    </div>
+                    <div class="testarrow">
+                        <img src="./images/testarrow.png" alt="arrow">
                     </div>
                     <div class="names">
                         <h4 id="name">Wayne Henderson</h4>
@@ -984,8 +1025,7 @@
                             </div>
                             <div class="contact">
                                 <a href="tel:1234567890">12.3456.7890</a>
-                                <a
-                                    href="mailto:info@ditinteractive.com"><span>info@ditInteractive.com</span></a>
+                                <a href=""><span>info@ditInteractive.com</span></a>
                             </div>
 
                         </div>
@@ -994,8 +1034,8 @@
                                 <h4>SIGN UP FOR </h4>
                                 <h4 id="newsletter">THE NEWSLETTER</h4>
                                 <form action="">
-                                    <input type="email" placeholder="@ email address...">
-                                    <button type="submit"><img src="./images/emailicon.png" alt=""></button>
+                                    <input type="email" placeholder="@ email address..." class="emailinput">
+                                    <input type="image" src="./images/emailicon.png" alt="email" class="emailsubmit">
                                 </form>
                             </div>
                             <img src="./images/sponsorline.png" alt="line">
